@@ -1,0 +1,12 @@
+name: build
+# codeagent-managed: true
+on:
+  push:
+    branches: ['feature/auto-**']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: mvn -q -B compile

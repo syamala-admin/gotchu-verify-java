@@ -8,6 +8,7 @@ public class App {
 class Order {
     private final String id;
     private final int quantity;
+    private final int unitPrice = 1;
 
     Order(String id, int quantity) {
         this.id = id;

@@ -1,5 +1,5 @@
 public class App {
-    public static void main(String[] args) {
-        int broken = "start";
+    public static void main(String[] a) {
+        int x = "one";
     }
 }
